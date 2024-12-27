@@ -1,0 +1,46 @@
+.shopkeeper-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  
+  padding: 20px;
+}
+.make-down{
+   background-color: light gray;
+}
+.profile-card {
+  max-width: 600px;
+  width: 100%;
+  background: #fff;
+  border-radius: 10px;
+}
+/* .profile-view{
+  padding:50px;
+} */
+
+.profile-edit input,
+.profile-view p {
+  font-size: 1.1rem;
+}
+
+.profile-edit h3,
+.profile-view h3 {
+  color: black;
+  font-weight: bold;
+}
+
+button.btn-warning {
+  background-color: #f39c12;
+  border: none;
+}
+
+button.btn-danger {
+  background-color: #e74c3c;
+  border: none;
+}
+
+button:hover {
+  transform: scale(1.03);
+  transition: 0.3s ease-in-out;
+}

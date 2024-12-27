@@ -1,0 +1,617 @@
+*{
+  input{
+    opacity: 1;
+  }
+}
+  :root {
+      --background: #000;
+      --background-inverse: #fff;
+      --container-bg-1: #1b1b1b;
+      --container-bg-2: #252525;
+      --container-bg-3: #545454;
+      --container-bg-success-1: #d8ffcb;
+      --container-bg-success-2: #318216;
+      --container-bg-danger-1: #ffe5e5;
+      --container-bg-danger-2: #ac0303;
+      --container-bg-warning-1: #fff5e1;
+      --container-bg-warning-2: #917304;
+      --container-bg-flash-1: #d7ecff;
+      --container-bg-flash-2: #005099;
+      --container-border-1: #e9e9e9;
+      --container-border-2: #e9e9e9;
+      --container-border-3: #8e8e8e;
+      --container-border-success: #44b31f;
+      --container-border-danger: #ff6161;
+      --container-border-flash: #3397f2;
+      --container-border-warning: #e4b81d;
+      --container-border-emphasized: #44b31f;
+      --container-border-deemphasized: #545454;
+      --fg-default-0: #fff;
+      --fg-default-1: #fff;
+      --fg-default-2: #8e8e8e;
+      --fg-default-3: #545454;
+      --fg-inverse-0: #000;
+      --fg-inverse-1: #252525;
+      --fg-inverse-2: #545454;
+      --fg-inverse-3: #8e8e8e;
+      --fg-primary-1: #44b31f;
+      --fg-primary-2: #318216;
+      --fg-success-1: #44b31f;
+      --fg-success-2: #318216;
+      --fg-danger-1: #ff6161;
+      --fg-danger-2: #ac0303;
+      --fg-warning-1: #e4b81d;
+      --fg-warning-2: #917304;
+      --fg-flash-1: #3397f2;
+      --fg-flash-2: #005099;
+      --fg-emphasized: #44b31f;
+      --fg-deemphasized: #545454;
+      --obj-bg-primary: #44b31f;
+      --obj-bg-secondary: #fff;
+      --obj-bg-danger: #ff6161;
+      --obj-bg-flash: #3397f2;
+      --obj-bg-warning: #e4b81d;
+      --obj-bg-success: #44b31f;
+      --obj-bg-canvas: #000;
+      --obj-bg-primary-hover: #d8ffcb;
+
+  }
+
+  .container-bg-2 {
+    margin:10px;
+    background-color: var(--container-bg-2) !important;
+    color:#fff;
+}
+.rounded-6 {
+    border-radius: 1.5rem !important;
+}
+
+.navbar-expand-lg .navbar-collapse {
+
+  gap: 10px;
+}
+
+img,svg{
+  font-size: 30px;
+  color:#fff;
+}
+img,svg:hover{
+  /* background-color:blue; */
+  border-radius:50%;
+  color:#fff;
+}
+a:hover{
+  font-weight: bolder;
+  font-size:medium;
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: white;
+}
+.btn-outline-primary{
+  margin:25px;
+}
+
+.card{
+  background:#edebeb;
+  border:1.4px solid #d2cdcd;
+  /* //border: 1px solid #1b1b1b; */
+}
+
+.form-control{
+  opacity: 1;
+}
+.w-100 {
+    border-radius: 0;
+    height: 500px;
+    opacity: 1;
+}
+
+.card {
+  margin: 50px;
+  height: 500px;
+  width: 300px;
+  min-width: 300px;
+}
+.paper-div{
+  background-color: rgb(182, 16, 16);
+}
+.navbar-expand-lg{
+  height:70px;
+}
+ .path{
+  color:white;
+} 
+.Login-page{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top:30v
+
+}
+/* 
+#exampleInputPassword1{
+  margin-left:50px;
+  width: 80%;
+  margin-right: 82px;
+}
+input{
+  opacity: 1;
+}
+.in-login{
+  border: 0.1px solid rgb(130, 127, 127);
+  width:500px;
+  height:278px;
+  padding: 20px;
+}
+label{
+  margin-left:50px;
+  font-weight:400px;
+  font-size:larger;
+}
+.form-inside input{
+  width: 100%;
+}
+.form-control{
+  width:80%;
+  margin-left: 50px;
+  height:50px;
+  border: 1px solid;
+    opacity: 0.2;
+}
+/* .hlo{
+  background-color: red
+} */
+.navbar{
+   background-color: lightgray;
+  
+}
+.paper-div{
+  background-color: rgb(182, 16, 16);
+  
+}
+.paper-div img{
+  width:40%;
+  height:300px;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+  margin-left: 50px;
+  width: 80%;
+  margin-top: 10px;
+  height:47px;
+}
+.new-account{
+  margin-left:50px;
+  margin-top:10px;
+}
+.footer{
+  margin-top: 3rem;
+  border:0.5px solid #1b1b1b
+}
+a{
+  
+  text-decoration: none;
+  color: #fff
+}
+.in-signup{
+  height:440px;
+  border: 0.1px solid rgb(130, 127, 127);
+  padding: 20px;
+  margin-top:-100px;
+  width:400px;
+}
+#control-search{
+  background-color: #fff;
+  opacity: 1;
+}
+#go{
+  color:blue;
+  margin-left:10px;
+}
+.card {
+max-height:360px;
+}
+
+.card-img, .card-img-top {
+  border-radius: 0;
+  height: 211px;
+}
+/* Footer.css */
+.footer a:hover {
+  color: #28a745;
+}
+.carousel-inner{
+  opacity: 1;
+}
+.card-body {
+  margin-left: 17%;
+}
+.name-ch{
+  font-weight: 500;
+  
+}
+.card-title{
+font-size: 27px;
+}
+.paper-Inner{
+   border-radius: 0%;
+   width: 45%;
+   height: 420px;
+}
+.img-fluid img{
+  border-radius: 50%;
+}
+/* .name-sr span{
+  background: -webkit-linear-gradient(16deg, #4b90ff, #ff5546);
+} */
+ .card:hover{
+   
+     box-shadow: 4px 4px 4px 4px var(--obj-bg-primary-hover)
+ }
+
+.paper-div{
+   display: flex;
+   gap:5rem;
+}
+.paper-div-right{
+    width:400px;
+    padding:50px;
+}
+.paper-Inner-Button{
+    width:150px;
+    margin-bottom:10px;
+}
+.card-btn{
+   border:2px solid gray;
+}
+.img-fluid {
+  max-width: 90%;
+  height: 45vh;
+  border-radius: 0;
+  margin:22px;
+}
+.item-buy{
+  font-size: xx-large;
+  color: purple;
+}
+.mt-5 {
+  margin-top: 3rem !important;
+  
+}
+
+.left{
+  margin-left:90px;
+}
+
+input {
+  font-size: 1rem; /* Standard readable size */
+  color: #000; /* Black text */
+  background-color: #fff; /* White background for contrast */
+  border: 1px solid #ccc; /* Subtle border */
+  padding: 10px;
+  border-radius: 5px;
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+input:focus {
+  color: #000; /* Ensure text remains black on focus */
+  background-color: #f9f9f9; /* Optional: slight background change */
+  outline: none; /* Remove default browser outline */
+  border-color: #007bff; /* Highlight border for focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add subtle glow */
+}
+
+input::placeholder {
+  color: #100f0f; /* Subtle placeholder color for clarity */
+  opacity: 1; /* Ensure visibility of placeholder */
+}
+
+input:focus::placeholder {
+  color: #ccc; /* Slightly fade placeholder on focus */
+}
+
+
+.left-mar{
+  margin-left: 100px;
+}
+.fg-success-1 {
+  color: var(--fg-success-1) !important;
+}
+/* Ensure placeholder text is fully visible */
+.form-floating .form-control {
+  white-space: nowrap; /* Prevents text wrapping */
+  overflow: visible; /* Ensures full placeholder visibility */
+  text-overflow: clip; /* No truncation with ellipsis */
+}
+
+.form-floating .form-control::placeholder {
+  opacity: 1; /* Placeholder is always visible */
+  color: #060606; /* Consistent placeholder color */
+}
+
+@media(min-width:1200px ) and (max-width:1400px){
+   .card{
+    margin-right: 50px;
+  
+    margin-left: 15px;
+   }
+}
+@media(min-width:1000px ) and (max-width:1200px){
+  .card{
+      margin-right: 100px;
+      margin-left: 68px;
+  }
+}
+@media(min-width:780px ) and (max-width:1001px){
+  .card{
+      margin-right: 50px;
+      margin-left: 4px;
+  }
+}
+@media(max-width:450px){
+  .card-small{
+    margin-left: 10px;
+  }
+  .footer{
+    margin-left: 10px;
+    width:400px
+  }
+  .c-flex{
+     flex-direction: column;
+    
+  }
+  .s-btn{
+    width: 70px;
+  }
+  .form-floating input{
+    min-width: 100%;
+  }
+  .left-mar{
+    margin-left: 47px;
+  }
+  .cd-m{
+    margin-bottom: 20px;
+  }
+  .make-down{
+    margin-top: 6rem;
+  }
+}
+@media (max-width:991px){
+  .navbar{
+    height:60px;
+  }
+  .navbar-toggler-icon{
+    background-color: #fff;
+  }
+  /* .navbar-expand-lg::after{
+    height:180px;
+  }
+  .my-1{
+    justify-content: center
+    ;
+  }
+  .navbar-expand-lg {
+    height: 313px;
+  }
+  .in-login{
+    margin-top: -164px;
+  } */
+}
+
+.map-container {
+  width: 100%; /* Full width */
+  overflow: hidden; /* Prevents overflow */
+}
+
+.map-iframe {
+  width: 100%; /* Full width */
+  height: 450px; /* Set a fixed height */
+  border: 0; /* No border */
+}
+.loc-map{
+   text-align: center;
+   margin:20px;
+   color:purple;
+}
+.navbar-nav .nav-item {
+  display: block;
+  text-align: center;
+}
+
+.profile-img{
+  height:29px;
+  width:29px;
+  color:#fff;
+}
+/* This is the main profile container holding the image and the dropdown */
+.position-relative {
+  position: relative;
+}
+
+.hidden {
+  display: none;
+}
+
+/* When hovering on the profile image or dropdown, the dropdown stays visible */
+.profile-container:hover .dropdown-content,
+.dropdown-content:hover {
+  display: block;
+}
+
+/* Styling for the dropdown */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 60px; /* Moves the dropdown down */
+  right: -20px; /* Creates space from the right */
+  min-width: 150px;
+  z-index: 1000;
+  background-color: #343a40; /* Dark background for the dropdown */
+  padding: 10px;
+  
+  border-radius: 5px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add shadow for better visibility */
+}
+
+/* Optional transition for a smoother appearance/disappearance */
+.dropdown-content {
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0;
+}
+
+.profile-container:hover .dropdown-content,
+.dropdown-content:hover {
+  opacity: 1;
+  display: block;
+}
+.img1{
+  width:250px;
+  height:300px;
+  border-radius: 0;
+}
+.profile-div{
+  margin:2rem;
+   margin-left:10vw;
+}
+.btn-size{
+   width:90px;
+   font-size:larger
+}
+.right-left{
+  display: flex;
+  justify-content: center;
+  gap:5rem;
+  top:10px;
+}
+.right-items{
+  position: relative;
+  top: 59px;
+}
+.contact-info{
+  /* align-items: center; */
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left:15rem;
+}
+.contact-info input{
+   width:60vw;
+   padding:0.4rem;
+   border: 0.1px solid black;
+   border-radius: 0.5rem;
+}
+.sub-btn{
+  width:150px;
+  height:50px;
+  margin:0.1rem;
+}
+.message-text{
+  height:100px;
+}
+
+.signup-form{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top:1.5rem;
+  gap:0.5rem;
+}
+label{
+   position: relative;
+   right:9rem;
+}
+input{
+  width: 24%;
+  height:40px;
+  padding-left:0.5rem;
+  border-radius: 10px;
+  border:1px solid gray;
+}
+.password-label{
+  right:8rem;
+}
+.dropdown-menu{
+  position: absolute;
+  left:-170px;
+  top:1.4rem;
+}
+.Shopkeeper-profile{
+  width:700px;
+ margin-top:3rem;
+ padding-top: 1rem;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ gap:0.8rem;
+ background-color: rgba(0,0,0,0.1);
+ margin-left:28vw;
+
+}
+.Shopkeeper-profile input{
+width: 334px;
+margin-bottom: 10px;
+}
+.Shopkeeper-profile .profile-inside{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+.Shopkeeper-profile h2{
+ margin-top:10px;
+ margin-bottom: 10px;
+}
+.scrap-items{
+margin-left: 3rem;
+ margin-top:10px;
+}
+.ul-item{
+display: flex;
+gap:0.5rem;
+flex-direction: column;
+}
+.li-item input{
+width:300px;
+}
+.li-item{
+display: flex;
+justify-content: space-between;
+margin-left:5rem;
+margin-right:5rem
+}
+.btnAccount{
+  display: flex;
+  gap:2rem;
+  justify-content: center;
+  margin-top: 5rem;;
+  align-items: center;
+}
+.box{
+display: flex;
+flex-direction: column;
+}
+.card-inner-div{
+    border: 1px solid rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-inner-flex{
+  display: flex;
+  column-gap:1rem;
+
+}
+.card-inner-flex img{
+  width:200px;
+  height: 200px;
+}
+.in-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 7rem;
+}
